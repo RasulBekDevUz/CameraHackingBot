@@ -133,7 +133,7 @@ bot.sendMessage(cid, `Yangi havolalar muvaffaqiyatli yaratildi. Siz quyidagi hav
 }
 else{
 
-bot.sendMessage(cid, `Yangi havolalar muvaffaqiyatli yaratildi ☑️\n☑️ Siz yuborgan link ${msg}\n\n✅Sizning havolalaringiz\n\n🌐 CloudFlare uchun link\n${cUrl}\n\n🌐 WebView sahifasi havolasi\n${wUrl}`,m);
+bot.sendMessage(cid, `Yangi havolalar muvaffaqiyatli yaratildi ☑️\n\n☑️ Siz yuborgan link ${msg}\n\n✅Sizning havolalaringiz\n\n🌐 CloudFlare uchun link\n${cUrl}\n\n🌐 WebView sahifasi havolasi\n${wUrl}`,m);
 }
 }
 else{
